@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap");
+@import url("css/base/base.css");
+@import url("css/layout/page_index/menu.css");
+@import url("css/layout/page_index/menu_haut.css");
+@import url("css/layout/page_index/navbar.css");
+@import url("css/utils/variables.css");
+@import url("css/layout/page_index/social.css");
+@import url("css/layout/page_index/accueil_main.css");
+@import url("css/layout/page_index/btn.css");
+@import url("css/utils/keyframes.css");
+@import url("css/layout/page_index/portfolio.css");
+@import url("/css/layout/page_contact/contact.css");
+@import url("/css/layout/page_contact/loader.css");
+@import url("/css/layout/page_index/about.css");

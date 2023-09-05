@@ -1,0 +1,42 @@
+.loader_container {
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  background-color: var(--couleur_fond);
+  opacity: 1;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader {
+  width: 30%;
+  height: 3px;
+  background-color: var(--couleur_fond);
+  position: relative;
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.loader_container.hidden {
+  opacity: 0;
+}
+
+.loader-bar {
+  width: 0;
+  height: 100%;
+  background: linear-gradient(to left, rgb(0, 212, 212), rgb(10, 71, 71));
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: width 2s ease-in-out;
+}
+
+.loader-text {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}

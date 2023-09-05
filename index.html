@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/2be370f704.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Clément Rea</title>
+  </head>
+  <body>
+    <menu class="menu">
+      <a class="menu_haut" href="index.html">
+        <img src="images/logo.png" class="logo" alt="logo CR" />
+        <span class="menu_prenom">Clément Rea</span>
+        <span class="menu_metier">Développeur Web</span>
+      </a>
+      <nav>
+        <a class="navbar" href="html/a_propos.html">A Propos</a>
+        <a class="navbar" href="#portfolio">Portfolio</a>
+        <a class="navbar navbar_fin" href="html/contact.html">Contact</a>
+      </nav>
+      <ul class="social">
+        <li>
+          <a href="https://github.com/ClemRea">
+            <i class="fa-brands fa-github icon_github icon"></i>
+          </a>
+        </li>
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/clément-rea-67713a218">
+            <i class="fa-brands fa-linkedin-in icon_linkedin icon"></i>
+          </a>
+        </li>
+      </ul>
+    </menu>
+    <section class="accueil_main">
+      <div class="text_zone">
+        <h1 class="titre_h1" aria-label="Clément Rea, développeur web"></h1>
+        <p class="diplome">Diplomé OpenClassrooms</p>
+        <a href="html/contact.html">
+          <div class="container">
+            <div class="center">
+              <button class="btn">
+                <svg
+                  width="180px"
+                  height="60px"
+                  viewBox="0 0 180 60"
+                  class="border"
+                >
+                  <polyline
+                    points="179,1 179,59 1,59 1,1 179,1"
+                    class="bg-line"
+                  />
+                  <polyline
+                    points="179,1 179,59 1,59 1,1 179,1"
+                    class="hl-line"
+                  />
+                </svg>
+                <span>Contact</span>
+              </button>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+    <div class="scroll_container">
+      <div class="scroll_animation">
+        <span class="scroll_item scroll_text">Scroll down</span>
+        <i class="fa-sharp fa-solid fa-arrow-down scroll_item"></i>
+      </div>
+    </div>
+
+    <section class="section_portfolio">
+      <div class="liste_portfolio">
+        <h2 class="titre_h2" id="portfolio"></h2>
+        <div class="card_container">
+          <div class="card">
+            <div class="card_image booki">
+              <div class="card_image_filtre"></div>
+            </div>
+            <div class="card_content">
+              <div class="card_content_background">
+                <h3 class="card_content_title">Booki</h3>
+                <p class="card_content_description">
+                  Booki est le premier porjet de code de la formation. <br />
+                  Il consiste à intégrer une maquette d'un site d'hébergement à
+                  Marseille en utilisant HTML5 et CSS3. <br />(Cliquez pour en
+                  savoir plus)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_image ohmyfood">
+              <div class="card_image_filtre"></div>
+            </div>
+            <div class="card_content">
+              <div class="card_content_background">
+                <h3 class="card_content_title">Ohmyfood</h3>
+                <p class="card_content_description">
+                  Ohmyfood est le deuxième projet de code de la formation.<br />
+                  Il consiste à intégrer la maquette d'un site tout en applicant
+                  des annimation css,<br />
+                  le tout en utilisant Sass <br />(Cliquez pour en savoir plus)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_image la_panthere">
+              <div class="card_image_filtre"></div>
+            </div>
+            <div class="card_content">
+              <div class="card_content_background">
+                <h3 class="card_content_title">La Panthère</h3>
+                <p class="card_content_description">
+                  La Panthère est le quatrième projet de code de la formation.
+                  <br />
+                  Il consiste à modifier un site web fait en html css et
+                  javascript pour lui faire respecter les règles du SEO ainsi
+                  que son accessibilité. <br />(Cliquez pour en savoir plus)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_image kanap">
+              <div class="card_image_filtre"></div>
+            </div>
+            <div class="card_content">
+              <div class="card_content_background">
+                <h3 class="card_content_title">Kanap</h3>
+                <p class="card_content_description">
+                  Kanap est le cinquième projet de code de la formation.
+                  <br />
+                  Il consiste à gérer le Javascript d'un site de vente de
+                  canapés pour intégrer les fonctionalités tels que la gestion
+                  du panier ou encore communiquer avec une api pour obtenir les
+                  produits mis en ventes <br />(Cliquez pour en savoir plus)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_image hot_takes">
+              <div class="card_image_filtre"></div>
+            </div>
+            <div class="card_content">
+              <div class="card_content_background">
+                <h3 class="card_content_title">Hot Takes</h3>
+                <p class="card_content_description">
+                  Hot takes est le sixième projet de code de la formation.
+                  <br />
+                  Il consiste à créer une API en ligne en utilisant nodeJs pour
+                  un site internet de vente de sauces piquantes. j'ai du gérer
+                  la création de comptes, les login, les mises en lignes de
+                  sauces ainsi que leurs modification, ainsi qu'un système de
+                  like/dislike<br />(Cliquez pour en savoir plus)
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card_image kasa">
+              <div class="card_image_filtre"></div>
+            </div>
+            <div class="card_content">
+              <div class="card_content_background">
+                <h3 class="card_content_title">Kasa</h3>
+                <p class="card_content_description">
+                  Kasa est le dernier projet de code de la formation.
+                  <br />
+                  Il consiste à créer un site de logement en ligne en respectant
+                  une maquette Figma le tout en utilisant React. Il a fallut
+                  gérer l'affichages des différents loggements ainsi que les
+                  hôtes et d'autres fonctionnalités<br />(Cliquez pour en savoir
+                  plus)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section_about">
+      <div class="about_container">
+        <h4 class="titre_h4" id="about"></h4>
+      </div>
+    </section>
+    <script src="js/index.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  </body>
+</html>

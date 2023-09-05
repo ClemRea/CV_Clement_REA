@@ -1,0 +1,18 @@
+* {
+  font-family: "Open sans", "Arial";
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--couleur_fond);
+  padding-left: 160px;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  margin: 0;
+}

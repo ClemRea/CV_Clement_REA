@@ -1,0 +1,184 @@
+.section_portfolio {
+  position: relative;
+  margin-top: 16px;
+}
+
+.titre_h2 {
+  margin: 0;
+  padding-left: 32px;
+  padding-top: 16px;
+  padding-bottom: 40px;
+  font-size: 50px;
+  color: var(--couleur_hover);
+  user-select: none;
+}
+
+.titre_h2::before {
+  content: "";
+  background-color: var(--couleur_navbar_border);
+  width: 100%;
+  height: 3px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+span.spanH2:hover {
+  color: white;
+}
+
+/************************************/
+/************GESTION CARTE***********/
+/************************************/
+
+.card_container {
+  display: flex;
+  margin: 25px 6% 25px 6%;
+  flex-direction: column;
+  gap: 65px;
+  position: relative;
+}
+
+.card {
+  display: flex;
+  max-width: 708px;
+  min-height: 340px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:nth-child(even) {
+  align-self: flex-start;
+}
+
+.card:nth-child(odd) {
+  align-self: flex-end;
+}
+
+/******************************************/
+/************GESTION CARTE IMAGE***********/
+/******************************************/
+
+.ohmyfood {
+  background-image: url("../../../images/ohmyfood_site.PNG");
+  background-position: center;
+}
+
+.booki {
+  background-image: url("../../../images/booki_site.PNG");
+}
+
+.la_panthere {
+  background-image: url("../../../images/la_panthere_site.PNG");
+  background-position: center;
+}
+
+.kanap {
+  background-image: url("../../../images/kanap_site.PNG");
+  background-position: center;
+}
+
+.hot_takes {
+  background-image: url("../../../images/hot_takes_site.png");
+  background-position: center;
+}
+
+.kasa {
+  background-image: url("../../../images/kasa_site.PNG");
+  background-position: center;
+}
+
+.card_image {
+  display: flex;
+  background-size: cover;
+  flex: 1;
+  position: relative;
+  transition: filter 0.2s;
+}
+
+.card_image_filtre {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/****************************************/
+/**********GESTION CARTE CONTENT*********/
+/****************************************/
+
+.card_content {
+  background-color: white;
+  filter: brightness(1);
+  position: relative;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 26px;
+  transition: filter 0.2s;
+}
+
+.card_content_background {
+  filter: brightness(1);
+  background-color: var(--couleur_background_protfolio);
+  transition: filter 0.2s;
+}
+
+.card_content_title {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 0px;
+  padding: 10px;
+  border-radius: 3px 3px 0 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.card_content_description {
+  color: white;
+  padding: 20px;
+  border-radius: 0 0 3px 3px;
+  margin: 0;
+  transition: filter 0.2s;
+}
+
+/************************************/
+/************GESTION HOVER***********/
+/************************************/
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/*************************************/
+/************GESTION OUTILS***********/
+/*************************************/
+
+.outil_titre_h3 {
+  color: white;
+  font-size: 24px;
+  margin-bottom: 36px;
+}
+
+.outil_right {
+  position: absolute;
+  left: 150px;
+}
+
+.outil_image {
+  display: flex;
+  width: 9%;
+  margin: 0;
+  gap: 16px;
+}
+
+.outil_image img {
+  width: 100%;
+}

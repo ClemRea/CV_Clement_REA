@@ -1,0 +1,17 @@
+.menu {
+  width: 10rem;
+  background-color: #181818;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: auto;
+  bottom: 0;
+  display: flex;
+  z-index: 3;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}

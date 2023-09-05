@@ -1,0 +1,78 @@
+.contact_titre {
+  font-size: 40px;
+  color: var(--couleur_background_protfolio);
+  font-weight: 800;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.contact_container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  margin-bottom: 32px;
+}
+
+.tel,
+.email {
+  background-color: var(--couleur_form);
+  padding: 10px;
+  border-radius: 3px;
+}
+
+/******************************************/
+/**************GESTION BOUTTON*************/
+/******************************************/
+
+form {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+.btn_contact_container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn_contact {
+  background-color: transparent;
+  color: rgb(10, 71, 71);
+  border: 2px solid rgb(10, 71, 71);
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+
+.btn_contact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(10, 71, 71);
+  transition: left 0.3s; /* Animation de transition */
+  z-index: -1; /* Placez le pseudo-élément derrière le bouton */
+}
+
+.btn_contact:hover::before {
+  left: 0;
+}
+
+.btn_contact:hover {
+  background-color: rgb(10, 71, 71);
+  color: white;
+  transform: scale(1.05);
+}

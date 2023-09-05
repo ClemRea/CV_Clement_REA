@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactez-moi</title>
+    <script
+      src="https://kit.fontawesome.com/2be370f704.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="../style.css" />
+  </head>
+  <body>
+    <div class="loader_container">
+      <div class="loader" id="loader_id">
+        <div class="loader-text">0%</div>
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+    <menu class="menu">
+      <a class="menu_haut" href="/index.html">
+        <img src="../images/logo.png" class="logo" alt="logo CR" />
+        <span class="menu_prenom">Clément Rea</span>
+        <span class="menu_metier">Développeur Web</span>
+      </a>
+      <nav>
+        <a class="navbar" href="html/a_propos.html">A Propos</a>
+        <a class="navbar" href="../index.html#portfolio">Portfolio</a>
+        <a class="navbar navbar_fin" href="contact.html">Contact</a>
+      </nav>
+      <ul class="social">
+        <li>
+          <a href="https://github.com/ClemRea">
+            <i class="fa-brands fa-github icon_github icon"></i>
+          </a>
+        </li>
+        <li class="linkedin">
+          <a href="https://www.linkedin.com/in/clément-rea-67713a218">
+            <i class="fa-brands fa-linkedin-in icon_linkedin icon"></i>
+          </a>
+        </li>
+      </ul>
+    </menu>
+    <div class="contact_container">
+      <form class="formulaire">
+        <h1 class="contact_titre">Me contacter</h1>
+        <p class="tel">Tel : 06.47.34.78.72</p>
+        <p class="email">Email : clementrea7@gmail.com</p>
+        <div class="btn_contact_container">
+          <a href="mailto:clementrea7@gmail.com"
+            ><button class="btn_contact">M'envoyer un mail</button></a
+          >
+        </div>
+      </form>
+    </div>
+    <script src="../js/contact.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  </body>
+</html>

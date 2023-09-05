@@ -1,0 +1,55 @@
+.accueil_main {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-bottom: -35px;
+}
+
+h1 span {
+  position: relative;
+}
+
+span.spanH1:hover {
+  color: var(--couleur_hover);
+}
+
+.rotate-animation {
+  animation: scroll_down 1s linear infinite;
+}
+
+.text_zone {
+  padding-bottom: 259px;
+  padding-left: 60px;
+}
+
+.diplome {
+  position: relative;
+  user-select: none;
+  color: #8d8d8d;
+  font-size: 18px;
+}
+
+.titre_h1 {
+  user-select: none;
+  color: white;
+  font-size: 91px;
+  margin: 0;
+}
+
+.scroll_item {
+  position: relative;
+  color: var(--couleur_navbar_text);
+}
+
+.scroll_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.scroll_animation {
+  animation-name: scroll_down;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
