@@ -9,6 +9,10 @@
 @import url("css/layout/page_index/btn.css");
 @import url("css/utils/keyframes.css");
 @import url("css/layout/page_index/portfolio.css");
-@import url("/css/layout/page_contact/contact.css");
-@import url("/css/layout/page_contact/loader.css");
-@import url("/css/layout/page_index/about.css");
+@import url("css/layout/page_contact/contact.css");
+@import url("css/layout/page_contact/loader.css");
+@import url("css/layout/page_index/about.css");
+@import url("css/utils/tab_resolution/media_accueil_main.css");
+@import url("css/utils/tel_resolution/media_accueil_main.css");
+@import url("css/utils/tel_resolution/media_about.css");
+@import url("css/utils/tel_resolution/media_portfolio.css");

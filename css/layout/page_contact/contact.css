@@ -29,7 +29,7 @@
 /**************GESTION BOUTTON*************/
 /******************************************/
 
-form {
+.formulaire {
   background-color: white;
   display: flex;
   flex-direction: column;

@@ -1,3 +1,8 @@
+.section_about {
+  position: relative;
+  margin-top: 116px;
+}
+
 .titre_h4 {
   margin: 0;
   padding-left: 32px;
@@ -15,9 +20,45 @@
   height: 3px;
   position: absolute;
   right: 0;
-  top: 3512px;
+  top: 0;
 }
 
 span.spanH4:hover {
   color: white;
+}
+
+/******************************************/
+/***********GESTION DESCRIPTION***********/
+/******************************************/
+
+.about {
+  background-color: white;
+  padding: 26px;
+  margin: 0 67px 0 67px;
+  transition: all 0.3s;
+}
+
+.about_description_container {
+  background-color: var(--couleur_background_protfolio);
+  padding: 36px;
+  transition: all 0.3s;
+}
+
+.about_description {
+  font-size: 20px;
+  color: white;
+}
+
+.about:hover {
+  cursor: pointer;
+  background-color: var(--couleur_background_protfolio);
+  transform: scale(1.02);
+}
+
+.about:hover > .about_description_container {
+  background-color: white;
+}
+
+.about:hover .about_description {
+  color: var(--couleur_background_protfolio);
 }
