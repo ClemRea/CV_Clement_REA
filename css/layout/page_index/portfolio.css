@@ -37,6 +37,7 @@ span.spanH2:hover {
   flex-direction: column;
   gap: 65px;
   position: relative;
+  perspective: 1000px;
 }
 
 .card {

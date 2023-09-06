@@ -36,6 +36,7 @@ span.spanH4:hover {
   padding: 26px;
   margin: 0 67px 0 67px;
   transition: all 0.3s;
+  border-radius: 3px;
 }
 
 .about_description_container {

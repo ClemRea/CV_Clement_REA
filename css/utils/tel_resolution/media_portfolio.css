@@ -1,6 +1,6 @@
 @media only screen and (min-width: 320px) and (max-width: 767px) {
   .section_portfolio {
-    margin-top: 8px; /* Ajustez la marge selon vos besoins */
+    margin-top: 8px;
   }
 
   .titre_h2 {
@@ -13,6 +13,10 @@
   .card_container {
     margin: 15px 3% 15px 3%;
     gap: 20px;
+  }
+
+  .card_content {
+    padding: 16px;
   }
 
   .card {
