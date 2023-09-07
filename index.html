@@ -19,8 +19,8 @@
         <span class="menu_metier">Développeur Web</span>
       </a>
       <nav>
-        <a class="navbar" href="#about">A Propos</a>
         <a class="navbar" href="#portfolio">Portfolio</a>
+        <a class="navbar" href="#about">A Propos</a>
         <a class="navbar navbar_fin" href="html/contact.html">Contact</a>
       </nav>
       <ul class="social">
@@ -36,6 +36,28 @@
         </li>
       </ul>
     </menu>
+    <nav class="menu_dropdown">
+      <a href="#portfolio" class="menu_dropdown_lien">Portfolio</a>
+      <a href="#about" class="menu_dropdown_lien">A Propos</a>
+      <a href="html/contact.html" class="menu_dropdown_lien">Contact</a>
+      <div class="social_dropdown">
+        <a href="https://github.com/ClemRea">
+          <i class="fa-brands fa-github icon_github icon"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/clément-rea-67713a218">
+          <i class="fa-brands fa-linkedin-in icon_linkedin icon"></i>
+        </a>
+      </div>
+    </nav>
+    <button
+      type="button"
+      aria-label="toggle rideau de navigation"
+      class="nav-toggler"
+    >
+      <span class="line l1"></span>
+      <span class="line l2"></span>
+      <span class="line l3"></span>
+    </button>
     <section class="accueil_main">
       <div class="text_zone">
         <h1 class="titre_h1" aria-label="Clément Rea, développeur web"></h1>
@@ -72,7 +94,6 @@
         <i class="fa-sharp fa-solid fa-arrow-down scroll_item"></i>
       </div>
     </div>
-
     <section class="section_portfolio">
       <div class="liste_portfolio">
         <h2 class="titre_h2" id="portfolio"></h2>
@@ -209,6 +230,7 @@
     </section>
     <script src="js/index.js" defer></script>
     <script src="js/card.js" defer></script>
+    <script src="js/menu.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   </body>
 </html>

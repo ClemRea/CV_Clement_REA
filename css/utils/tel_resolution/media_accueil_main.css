@@ -17,4 +17,8 @@
   .btn svg {
     display: none;
   }
+
+  .text_zone {
+    margin-left: 24px;
+  }
 }

@@ -1,0 +1,11 @@
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .menu {
+    width: auto;
+    height: auto;
+    position: static;
+    display: none;
+  }
+  .nav-toggler {
+    visibility: visible;
+  }
+}
