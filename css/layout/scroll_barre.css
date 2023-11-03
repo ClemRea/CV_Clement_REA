@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+
+.scrollbar {
+  position: fixed;
+  top: 0;
+  right: 5px;
+  width: 15px;
+  height: 0;
+  opacity: 0;
+  background: linear-gradient(
+    to top,
+    var(--couleur_background_protfolio),
+    var(--couleur_hover)
+  );
+  border-radius: 5px;
+  z-index: 99;
+}
+
+.click_scrollbar {
+  position: fixed;
+  top: 0;
+  right: 5px;
+  width: 15px;
+  height: 100%;
+  background: rgba(170, 170, 170, 0.356);
+  z-index: 99;
+  border-radius: 5px;
+}

@@ -12,6 +12,8 @@
     <title>Clément Rea</title>
   </head>
   <body>
+    <div class="scrollbar"></div>
+    <div class="click_scrollbar"></div>
     <menu class="menu">
       <a class="menu_haut" href="index.html">
         <img src="images/logo.png" class="logo" alt="logo CR" />
@@ -63,13 +65,13 @@
         <h1 class="titre_h1" aria-label="Clément Rea, développeur web"></h1>
         <p class="diplome">Diplomé OpenClassrooms</p>
         <a href="html/contact.html">
-          <div class="container">
-            <div class="center">
+          <span class="container">
+            <span class="center">
               <button class="btn">
                 <span>Contact</span>
               </button>
-            </div>
-          </div>
+            </span>
+          </span>
         </a>
       </div>
     </section>
@@ -213,9 +215,18 @@
         </div>
       </div>
     </section>
+    <div class="switch_container">
+      <label class="switch" for="theme-switch">
+        <input type="checkbox" id="theme-switch" />
+        <span class="slider round"></span>
+      </label>
+      <p class="mode_text"></p>
+    </div>
     <script src="js/index.js" defer></script>
     <script src="js/card.js" defer></script>
     <script src="js/menu.js" defer></script>
+    <script src="js/scrollBarre.js" defer></script>
+    <script src="js/darkMode.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   </body>
 </html>

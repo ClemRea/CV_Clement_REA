@@ -24,7 +24,7 @@
 }
 
 span.spanH2:hover {
-  color: white;
+  color: var(--couleur_titres);
 }
 
 /************************************/
@@ -112,7 +112,7 @@ span.spanH2:hover {
 /****************************************/
 
 .card_content {
-  background-color: white;
+  background-color: var(--couleur_card);
   filter: brightness(1);
   position: relative;
   flex: 1;

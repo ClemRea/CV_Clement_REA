@@ -7,6 +7,7 @@
 
 h1 span {
   position: relative;
+  color: var(--couleur_titres);
 }
 
 span.spanH1:hover {
@@ -38,7 +39,7 @@ span.spanH1:hover {
 
 .scroll_item {
   position: relative;
-  color: var(--couleur_navbar_text);
+  color: var(--couleur_titres);
 }
 
 .scroll_container {

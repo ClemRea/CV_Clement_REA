@@ -46,8 +46,8 @@
 
 .btn_contact {
   background-color: transparent;
-  color: rgb(10, 71, 71);
-  border: 2px solid rgb(10, 71, 71);
+  color: var(--couleur_btn_contact);
+  border: 2px solid var(--couleur_btn_contact);
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -62,7 +62,7 @@
   left: -100%;
   width: 100%;
   height: 100%;
-  background-color: rgb(10, 71, 71);
+  background-color: var(--couleur_btn_contact);
   transition: left 0.3s; /* Animation de transition */
   z-index: -1; /* Placez le pseudo-élément derrière le bouton */
 }
@@ -72,7 +72,7 @@
 }
 
 .btn_contact:hover {
-  background-color: rgb(10, 71, 71);
+  background-color: var(--couleur_btn_contact);
   color: white;
   transform: scale(1.05);
 }

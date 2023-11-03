@@ -3,7 +3,31 @@
   --couleur_navbar_text: #909096;
   --couleur_menu: #181818;
   --couleur_navbar_border: #282828;
-  --couleur_hover: rgb(0, 212, 212);
-  --couleur_background_protfolio: rgb(10, 71, 71);
+  --couleur_hover: #00d4d4;
+  --couleur_background_protfolio: #0a4747;
   --couleur_form: #f5f5f5;
+  --couleur_titres: white;
+  --couleur_card: #ffffff;
+  --couleur_menu: #181818;
+  --couleur_btn_border: #8fc9ff;
+  --couleur_btn_hover: #009c9c;
+  --couleur_btn_contact: #0a4747;
+  --couleur_line_dropdown: #f1f1f1;
+  --couleur_menu_dropdown: #111;
+}
+
+[data-theme="light"] {
+  --couleur_fond: #f8ede3;
+  --couleur_titres: #252525;
+  --couleur_menu: #fdf1e1;
+  --couleur_hover: #a2b29f;
+  --couleur_card: #bdd2b6;
+  --couleur_background_protfolio: #798777;
+  --couleur_btn_border: #bdd2b6;
+  --couleur_btn_hover: #a2b29f;
+  --couleur_btn_contact: #798777;
+  --couleur_line_dropdown: #798777;
+  --couleur_menu_dropdown: #a2b29f;
+  --couleur_navbar_text: #252525;
+  --couleur_navbar_border: #798777;
 }

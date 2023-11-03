@@ -1,6 +1,6 @@
 .menu {
   width: 10rem;
-  background-color: #181818;
+  background-color: var(--couleur_menu);
   height: 100vh;
   position: fixed;
   left: 0;
@@ -14,6 +14,7 @@
   align-items: center;
   margin: 0;
   padding: 0;
+  transition: background-color 0.4s;
 }
 
 /************************************/
@@ -57,7 +58,7 @@
   display: block;
   width: 100%;
   height: 2px;
-  background: #f1f1f1;
+  background: var(--couleur_line_dropdown);
   transition: transform 0.3s ease-out, opacity 0.1s ease-out;
 }
 
@@ -93,7 +94,7 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background: #111;
+  background: var(--couleur_menu_dropdown);
   border-bottom: 1px solid #cfcfcf;
   transform: translateY(-100%);
   transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);

@@ -26,7 +26,11 @@
 .loader-bar {
   width: 0;
   height: 100%;
-  background: linear-gradient(to left, rgb(0, 212, 212), rgb(10, 71, 71));
+  background: linear-gradient(
+    to left,
+    var(--couleur_hover),
+    var(--couleur_background_protfolio)
+  );
   position: absolute;
   top: 0;
   left: -23%;
@@ -38,5 +42,5 @@
   bottom: 0;
   left: 28%;
   transform: translate(-50%, -50%);
-  color: white;
+  color: var(--couleur_titres);
 }

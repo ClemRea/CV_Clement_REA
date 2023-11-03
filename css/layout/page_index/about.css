@@ -1,6 +1,7 @@
 .section_about {
   position: relative;
   margin-top: 116px;
+  margin-bottom: 40px;
 }
 
 .titre_h4 {
@@ -24,7 +25,7 @@
 }
 
 span.spanH4:hover {
-  color: white;
+  color: var(--couleur_titres);
 }
 
 /******************************************/
@@ -32,7 +33,7 @@ span.spanH4:hover {
 /******************************************/
 
 .about {
-  background-color: white;
+  background-color: var(--couleur_card);
   padding: 26px;
   margin: 0 67px 0 67px;
   transition: all 0.3s;
@@ -57,7 +58,7 @@ span.spanH4:hover {
 }
 
 .about:hover > .about_description_container {
-  background-color: white;
+  background-color: var(--couleur_card);
 }
 
 .about:hover .about_description {

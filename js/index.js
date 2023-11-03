@@ -25,7 +25,7 @@ function spanH1(str) {
   });
 }
 
-spanH1("Clément Rea,\n Développeur Web");
+spanH1("Clément Rea,\n Développeur Web \n junior");
 
 // Fonction pour ajouter les span au h2
 function spanH2(str) {
