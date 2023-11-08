@@ -32,12 +32,19 @@ span.spanH4:hover {
 /***********GESTION DESCRIPTION***********/
 /******************************************/
 
+.about_flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .about {
   background-color: var(--couleur_card);
   padding: 26px;
   margin: 0 67px 0 67px;
   transition: all 0.3s;
   border-radius: 3px;
+  width: 60%;
 }
 
 .about_description_container {
@@ -52,7 +59,6 @@ span.spanH4:hover {
 }
 
 .about:hover {
-  cursor: pointer;
   background-color: var(--couleur_background_protfolio);
   transform: scale(1.02);
 }
@@ -63,4 +69,13 @@ span.spanH4:hover {
 
 .about:hover .about_description {
   color: var(--couleur_background_protfolio);
+}
+
+.about:hover .about_contact {
+  color: var(--couleur_background_protfolio);
+}
+
+.about_contact {
+  color: white;
+  text-decoration: underline;
 }
