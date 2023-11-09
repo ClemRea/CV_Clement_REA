@@ -23,7 +23,17 @@
         <span class="menu_prenom">Clément Rea</span>
         <span class="menu_metier">Développeur Web</span>
       </a>
+      <div class="switch_container">
+        <label class="switch" for="theme-switch-base">
+          <input type="checkbox" id="theme-switch-base" />
+          <span class="slider round">
+            <i class="fa-solid fa-moon moon_icon icon_switch_mode"></i>
+            <i class="fa-solid fa-sun sun_icon icon_switch_mode"></i>
+          </span>
+        </label>
+      </div>
       <nav>
+        <a class="navbar" href="../index.html">Accueil</a>
         <a class="navbar" href="../index.html#about">A Propos</a>
         <a class="navbar" href="../index.html#portfolio">Portfolio</a>
         <a class="navbar navbar_fin" href="contact.html">Contact</a>
@@ -42,9 +52,21 @@
       </ul>
     </menu>
     <nav class="menu_dropdown">
-      <a href="../index.html#portfolio" class="menu_dropdown_lien">Portfolio</a>
-      <a href="../index.html#about" class="menu_dropdown_lien">A Propos</a>
-      <a href="contact.html" class="menu_dropdown_lien">Contact</a>
+      <a href="../index.html" class="menu_dropdown_lien left">Accueil</a>
+      <a href="../index.html#portfolio" class="menu_dropdown_lien right"
+        >Portfolio</a
+      >
+      <a href="../index.html#about" class="menu_dropdown_lien left">A Propos</a>
+      <a href="contact.html" class="menu_dropdown_lien right">Contact</a>
+      <div class="switch_container_dropdown">
+        <label class="switch_dropdown" for="theme-switch-dropdown">
+          <input type="checkbox" id="theme-switch-dropdown" />
+          <span class="slider_dropdown round_dropdown">
+            <i class="fa-solid fa-moon moon_icon icon_switch_mode"></i>
+            <i class="fa-solid fa-sun sun_icon icon_switch_mode"></i>
+          </span>
+        </label>
+      </div>
       <div class="social_dropdown">
         <a href="https://github.com/ClemRea">
           <i class="fa-brands fa-github icon_github icon"></i>
@@ -73,13 +95,6 @@
             ><button class="btn_contact">M'envoyer un mail</button></a
           >
         </div>
-      </div>
-      <div class="switch_container">
-        <label class="switch" for="theme-switch">
-          <input type="checkbox" id="theme-switch" />
-          <span class="slider round"></span>
-        </label>
-        <p class="mode_text"></p>
       </div>
     </div>
     <script src="../js/contact.js" defer></script>

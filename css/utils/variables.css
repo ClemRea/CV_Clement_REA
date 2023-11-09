@@ -14,6 +14,7 @@
   --couleur_btn_contact: #0a4747;
   --couleur_line_dropdown: #f1f1f1;
   --couleur_menu_dropdown: #111;
+  --couleur_border_bottom_dropdown: #cfcfcf;
 }
 
 [data-theme="light"] {
@@ -30,4 +31,5 @@
   --couleur_menu_dropdown: #a2b29f;
   --couleur_navbar_text: #252525;
   --couleur_navbar_border: #798777;
+  --couleur_border_bottom_dropdown: #252525;
 }

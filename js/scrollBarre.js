@@ -5,9 +5,6 @@ let totalHeight =
 
 window.addEventListener("scroll", () => {
   let progress = (document.documentElement.scrollTop / totalHeight) * 100;
-  progress > 26.5
-    ? (scrollToTopBtn.style.visibility = "visible")
-    : (scrollToTopBtn.style.visibility = "hidden");
   progressBar.style.height = `${progress}%`;
   progressBar.style.opacity = `${progress}%`;
 });

@@ -88,14 +88,13 @@
 
 .menu_dropdown {
   position: fixed;
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  place-items: center;
   width: 100vw;
   min-height: 21vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   background: var(--couleur_menu_dropdown);
-  border-bottom: 1px solid #cfcfcf;
+  border-bottom: 1px solid var(--couleur_border_bottom_dropdown);
   transform: translateY(-100%);
   transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
   z-index: 10;
@@ -110,9 +109,20 @@
   font-size: 20px;
   display: block;
   margin: 10px 0;
+  padding: 15px;
+  text-align: center;
 }
 
 .social_dropdown {
   display: flex;
   gap: 16px;
+  grid-column: span 2;
+}
+
+.left {
+  margin-left: 140px;
+}
+
+.right {
+  margin-right: 140px;
 }
