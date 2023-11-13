@@ -24,8 +24,8 @@
 .nav-toggler {
   position: fixed;
   z-index: 10;
-  top: 30px;
-  right: 30px;
+  top: 6px;
+  right: 11px;
   height: 50px;
   width: 50px;
   border: none;
@@ -89,7 +89,7 @@
 .menu_dropdown {
   position: fixed;
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
+  grid-template-columns: repeat(2, 1fr);
   place-items: center;
   width: 100vw;
   min-height: 21vh;
@@ -98,6 +98,7 @@
   transform: translateY(-100%);
   transition: transform 0.3s cubic-bezier(0.73, 0.11, 0.67, 0.84);
   z-index: 10;
+  padding: 20px;
 }
 
 .menu_dropdown.active {
@@ -105,24 +106,13 @@
 }
 
 .menu_dropdown_lien {
-  color: var(--couleur_navbar_text);
-  font-size: 20px;
-  display: block;
-  margin: 10px 0;
   padding: 15px;
-  text-align: center;
+  text-decoration: none;
+  color: var(--couleur_navbar_text);
+  font-size: 18px;
 }
 
 .social_dropdown {
-  display: flex;
-  gap: 16px;
-  grid-column: span 2;
-}
-
-.left {
-  margin-left: 140px;
-}
-
-.right {
-  margin-right: 140px;
+  grid-column: span 2; /* Span sur 2 colonnes */
+  text-align: center; /* Centre les éléments horizontalement dans la div */
 }
