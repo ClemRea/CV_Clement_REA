@@ -113,6 +113,10 @@
 }
 
 .social_dropdown {
-  grid-column: span 2; /* Span sur 2 colonnes */
-  text-align: center; /* Centre les éléments horizontalement dans la div */
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  position: absolute;
+  top: 29%;
+  left: 5%;
 }

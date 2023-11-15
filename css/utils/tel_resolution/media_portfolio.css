@@ -24,6 +24,17 @@
     min-height: auto;
   }
 
+  .card_with_background_img {
+    min-width: 100%;
+    min-height: auto;
+    background-image: url("../../../images/booki_site.PNG");
+    background-size: cover; /* Ajustez ceci en fonction de vos besoins */
+    background-position: center; /* Ajustez ceci en fonction de vos besoins */
+    position: relative; /* Ajoutez cela pour que le texte reste au-dessus de l'image */
+    text-decoration: none; /* Supprimez le soulignement par défaut du lien */
+    opacity: 0.1;
+  }
+
   .outil_titre_h3 {
     font-size: 20px;
     margin-bottom: 20px;

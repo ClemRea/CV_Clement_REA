@@ -20,14 +20,16 @@ window.addEventListener("load", function () {
 
   // Fonction pour animer le pourcentage
   function animatePercentage() {
-    if (percentage < 100) {
-      percentage += 0.5; // Augmenter la vitesse en ajustant ce nombre
-      loaderText.textContent = Math.round(percentage) + "%";
-      loaderBar.style.width = percentage + "%";
-      requestAnimationFrame(animatePercentage);
-    } else {
-      setTimeout(startOpacityAnimation, 2000); // 2000ms (2 secondes) de délai avant de démarrer le fondu
-    }
+    const intervalId = setInterval(() => {
+      if (percentage < 100) {
+        percentage += 1; // Augmenter la vitesse en ajustant ce nombre
+        loaderText.textContent = Math.round(percentage) + "%";
+        loaderBar.style.width = percentage + "%";
+      } else {
+        clearInterval(intervalId);
+        setTimeout(startOpacityAnimation, 2000); // 2000ms de délai avant de démarrer le fondu
+      }
+    }, 9); // actualisation du pourcentage toutes les 9ms
   }
 
   setTimeout(function () {
