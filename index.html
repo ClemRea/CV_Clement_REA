@@ -9,7 +9,7 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="style.css" />
-    <title>Clément Rea</title>
+    <title>Clément Rea CV</title>
   </head>
   <body>
     <div class="scrollbar"></div>
@@ -223,6 +223,37 @@
     <section class="section_about">
       <div class="about_container">
         <h4 class="titre_h4" id="about"></h4>
+        <figure class="photo_profile_container">
+          <img
+            src="/images/pp_rond_fini-03.png"
+            class="photo_profile"
+            alt="photo de profile"
+          />
+          <a
+            href="pdf/Clement_Rea_CV.pdf"
+            download
+            class="btn_cv_download"
+            id="download_link"
+          >
+            <i class="fa-solid fa-download download_icon"></i>
+            Téléchargez mon CV
+            <div class="progress_wrapper">
+              <div class="inner"></div>
+              <div class="checkmark">
+                <span></span>
+                <span></span>
+              </div>
+              <div class="circle">
+                <div class="bar left">
+                  <div class="progress"></div>
+                </div>
+                <div class="bar right">
+                  <div class="progress"></div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </figure>
         <div class="about_flex">
           <div class="about">
             <div class="about_description_container">
@@ -253,7 +284,8 @@
     <script src="js/card.js" defer></script>
     <script src="js/menu.js" defer></script>
     <script src="js/scrollBarre.js" defer></script>
-    <script src="js/darkMode.js"></script>
+    <script src="js/darkMode.js" defer></script>
+    <script src="js/btn_cv.js" defer></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
   </body>
 </html>

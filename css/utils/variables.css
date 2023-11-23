@@ -15,6 +15,9 @@
   --couleur_line_dropdown: #f1f1f1;
   --couleur_menu_dropdown: #111;
   --couleur_border_bottom_dropdown: #cfcfcf;
+  --couleur_btn_cv: #0a4747;
+  --couleur_btn_cv_cricle: #8fc9ff;
+  --couleur_btn_cv_span: #0a4747;
 }
 
 [data-theme="light"] {
@@ -32,4 +35,7 @@
   --couleur_navbar_text: #252525;
   --couleur_navbar_border: #798777;
   --couleur_border_bottom_dropdown: #252525;
+  --couleur_btn_cv: #bdd2b6;
+  --couleur_btn_cv_cricle: #798777;
+  --couleur_btn_cv_span: #bdd2b6;
 }
