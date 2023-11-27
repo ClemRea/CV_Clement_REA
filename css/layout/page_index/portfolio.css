@@ -5,7 +5,6 @@
 
 .titre_h2 {
   margin: 0;
-  padding-left: 32px;
   padding-top: 16px;
   padding-bottom: 40px;
   font-size: 50px;
@@ -13,7 +12,7 @@
   user-select: none;
 }
 
-.titre_h2::before {
+.titre_h2_to_right::before {
   content: "";
   background-color: var(--couleur_navbar_border);
   width: 100%;
@@ -23,8 +22,12 @@
   top: 0;
 }
 
-span.spanH2:hover {
+span.titre_h2:hover {
   color: var(--couleur_titres);
+}
+
+.titre_h2_to_right {
+  padding-left: 32px;
 }
 
 /************************************/

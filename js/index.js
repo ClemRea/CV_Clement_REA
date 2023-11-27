@@ -27,15 +27,15 @@ function spanH1(str) {
 
 spanH1("Clément Rea,\n Développeur Web \n junior");
 
-// Fonction pour ajouter les span au h2
-function spanH2(str) {
+// Fonction pour ajouter les span au h2 Portfolio
+function spanH2(str, classname) {
   let newStr = str.replace(", ", ",\n");
   let split = newStr.split("");
 
   split.forEach((letter) => {
     let span = document.createElement("span");
     span.innerHTML = letter;
-    span.classList.add("spanH2");
+    span.classList.add(classname);
 
     if (letter === "\n") {
       span.style.display = "block";
@@ -50,11 +50,13 @@ function spanH2(str) {
       span.classList.remove("rotate-animation"); // Supprimer la classe quand le survol est terminé
     });
 
-    document.querySelector("h2").appendChild(span);
+    document.querySelector("." + classname).appendChild(span); // Utilisez '.' + classname pour former le sélecteur CSS correct
   });
 }
 
-spanH2("Mon portfolio");
+// Utiliser la fonction avec différentes classes
+spanH2("Mon portfolio", "titre_h2");
+spanH2("Compétences", "titre_h2_skill");
 
 // Fonction pour ajouter les span au h4
 function spanH4(str) {

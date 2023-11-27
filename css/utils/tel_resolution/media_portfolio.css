@@ -3,10 +3,11 @@
     margin-top: 8px;
   }
 
+  .titre_h2_to_right {
+    padding: 8px 0 20px 16px;
+  }
+
   .titre_h2 {
-    padding-left: 16px;
-    padding-top: 8px;
-    padding-bottom: 20px;
     font-size: 36px;
   }
 

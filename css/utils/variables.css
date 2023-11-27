@@ -18,6 +18,7 @@
   --couleur_btn_cv: #0a4747;
   --couleur_btn_cv_cricle: #8fc9ff;
   --couleur_btn_cv_span: #0a4747;
+  --couleur_box_shadow_skill_card: #000000;
 }
 
 [data-theme="light"] {
@@ -38,4 +39,5 @@
   --couleur_btn_cv: #bdd2b6;
   --couleur_btn_cv_cricle: #798777;
   --couleur_btn_cv_span: #bdd2b6;
+  --couleur_box_shadow_skill_card: #444e41;
 }
