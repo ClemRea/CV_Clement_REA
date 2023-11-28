@@ -9,6 +9,9 @@ body {
   padding-left: 160px;
   transition: background-color 0.4s;
 }
+html {
+  scroll-behavior: smooth;
+}
 
 a {
   text-decoration: none;

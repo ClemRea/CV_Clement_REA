@@ -41,6 +41,7 @@ span.titre_h2:hover {
   gap: 65px;
   position: relative;
   perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 .card {
@@ -51,13 +52,25 @@ span.titre_h2:hover {
   overflow: hidden;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity 0.6s, transform 0.6s;
 }
 
-.card:nth-child(even) {
+.card_to_right {
+  transform: translateX(-50px);
+}
+
+.card.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.card_container_tool:nth-child(even) {
   align-self: flex-start;
 }
 
-.card:nth-child(odd) {
+.card_container_tool:nth-child(odd) {
   align-self: flex-end;
 }
 
