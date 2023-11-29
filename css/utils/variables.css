@@ -8,7 +8,6 @@
   --couleur_form: #f5f5f5;
   --couleur_titres: white;
   --couleur_card: #ffffff;
-  --couleur_menu: #181818;
   --couleur_btn_border: #8fc9ff;
   --couleur_btn_hover: #009c9c;
   --couleur_btn_contact: #0a4747;
@@ -19,6 +18,7 @@
   --couleur_btn_cv_cricle: #8fc9ff;
   --couleur_btn_cv_span: #0a4747;
   --couleur_box_shadow_skill_card: #000000;
+  --couleur_btn_card_media: #282828;
 }
 
 [data-theme="light"] {
@@ -40,4 +40,5 @@
   --couleur_btn_cv_cricle: #798777;
   --couleur_btn_cv_span: #bdd2b6;
   --couleur_box_shadow_skill_card: #444e41;
+  --couleur_btn_card_media: #444e41;
 }

@@ -55,7 +55,8 @@ span.titre_h2_skill:hover {
   align-items: center;
   justify-content: center;
   box-shadow: 0px 0px 26px -2px var(--couleur_box_shadow_skill_card);
-  transition: all 0.5s;
+  transition: opacity 0.6s, transform 0.6s;
+  opacity: 0;
 }
 
 .card_image_container {
@@ -72,4 +73,29 @@ span.titre_h2_skill:hover {
   color: var(--couleur_titres);
   font-weight: 600;
   margin-top: 15px;
+}
+
+/************************************/
+/******GESTION APPARITION CARTE******/
+/************************************/
+
+.skill_card.appear {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.skill_card_from_left {
+  transform: translateX(-50px);
+}
+
+.skill_card_from_right {
+  transform: translateX(50px);
+}
+
+.skill_card_from_top {
+  transform: translateY(-100px);
+}
+
+.skill_card_from_bottom {
+  transform: translateY(100px);
 }
