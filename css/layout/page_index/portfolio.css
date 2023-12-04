@@ -173,31 +173,18 @@ span.titre_h2:hover {
 .card:hover {
   transform: scale(1.05);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
 }
 
-/*************************************/
-/************GESTION OUTILS***********/
-/*************************************/
+/************************************/
+/********GESTION LIEN + OUTILS*******/
+/************************************/
 
-.outil_titre_h3 {
+.card_lien {
+  background-color: var(--couleur_btn_card_media);
   color: white;
-  font-size: 24px;
-  margin-bottom: 36px;
-}
-
-.outil_right {
-  position: absolute;
-  left: 150px;
-}
-
-.outil_image {
-  display: flex;
-  width: 9%;
-  margin: 0;
-  gap: 16px;
-}
-
-.outil_image img {
-  width: 100%;
+  padding: 6px 15px;
+  border-radius: 10px;
+  margin: 0 0 16px 0;
+  width: 150px;
+  cursor: pointer;
 }

@@ -5,6 +5,23 @@
     padding: 16px;
   }
 
+  .about:hover {
+    background-color: var(--couleur_card);
+    transform: scale(1);
+  }
+
+  .about:hover > .about_description_container {
+    background-color: var(--couleur_background_protfolio);
+  }
+
+  .about:hover .about_description {
+    color: var(--couleur_card);
+  }
+
+  .about:hover .about_contact {
+    color: var(--couleur_card);
+  }
+
   .about_description_container {
     padding: 11px;
   }

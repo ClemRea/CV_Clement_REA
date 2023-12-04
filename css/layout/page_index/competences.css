@@ -81,21 +81,9 @@ span.titre_h2_skill:hover {
 
 .skill_card.appear {
   opacity: 1;
-  transform: translateX(0);
+  transform: translateY(0);
 }
 
-.skill_card_from_left {
-  transform: translateX(-50px);
-}
-
-.skill_card_from_right {
-  transform: translateX(50px);
-}
-
-.skill_card_from_top {
-  transform: translateY(-100px);
-}
-
-.skill_card_from_bottom {
-  transform: translateY(100px);
+.skill_card {
+  transform: translateY(-50px);
 }

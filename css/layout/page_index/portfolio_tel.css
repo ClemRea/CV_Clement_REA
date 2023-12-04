@@ -51,11 +51,11 @@
 }
 
 .outils {
-  background-color: var(--couleur_background_protfolio);
+  background-color: var(--couleur_btn_border);
   padding: 6px 15px;
   border-radius: 10px;
   font-size: 12px;
-  color: white;
+  color: black;
 }
 
 .card_media_lien_container {
