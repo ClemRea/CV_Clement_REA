@@ -15,6 +15,7 @@
   box-shadow: 0px 0px 26px -2px var(--couleur_box_shadow_skill_card);
   opacity: 0;
   transition: opacity 0.6s, transform 0.6s;
+  user-select: none;
 }
 
 .card_media.appear {

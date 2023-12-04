@@ -80,13 +80,10 @@ input:checked + .slider:before {
 /*******************************************/
 
 .switch_container_dropdown {
-  position: absolute;
   display: flex;
   align-items: center;
   gap: 12px;
   z-index: 2;
-  top: 74%;
-  left: 42%;
 }
 
 .switch_dropdown {

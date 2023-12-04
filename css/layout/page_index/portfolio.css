@@ -140,6 +140,7 @@ span.titre_h2:hover {
   justify-content: center;
   padding: 26px;
   transition: filter 0.2s;
+  user-select: none;
 }
 
 .card_content_background {
@@ -171,7 +172,7 @@ span.titre_h2:hover {
 /************************************/
 
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
