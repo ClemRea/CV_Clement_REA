@@ -109,6 +109,10 @@ span.titre_h2:hover {
   background-image: url("../../../images/kasa_site.PNG");
 }
 
+.to_do_list {
+  background-image: url("../../../images/to_do_list.PNG");
+}
+
 .card_image {
   display: flex;
   background-size: cover;
