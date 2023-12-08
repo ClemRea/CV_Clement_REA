@@ -19,6 +19,7 @@
   --couleur_btn_cv_span: #0a4747;
   --couleur_box_shadow_skill_card: #000000;
   --couleur_btn_card_media: #282828;
+  --couleur_span_background: #ffffff;
 }
 
 [data-theme="light"] {
@@ -41,4 +42,5 @@
   --couleur_btn_cv_span: #bdd2b6;
   --couleur_box_shadow_skill_card: #444e41;
   --couleur_btn_card_media: #444e41;
+  --couleur_span_background: rgb(187, 187, 187);
 }

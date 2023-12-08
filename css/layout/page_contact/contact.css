@@ -63,8 +63,8 @@
   width: 100%;
   height: 100%;
   background-color: var(--couleur_btn_contact);
-  transition: left 0.3s; /* Animation de transition */
-  z-index: -1; /* Placez le pseudo-élément derrière le bouton */
+  transition: left 0.3s;
+  z-index: -1;
 }
 
 .btn_contact:hover::before {
